@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;               
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#fb-logo-search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#searchbox{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+
+#searchbox > i{
+position: absolute;
+left: 3px;
+}
+
+#searchbox > input{
+    width: 100%;
+    height: 35px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+
+
+
+
+#button-icons{
+
+}
+
+#button-icons > button{
+    width: 100px;
+height: 40px;
+border: none;
+cursor: pointer;
+background-color: #fff;
+}
+
+
+#button-icons > button > i{
+    font-size: 25px;
+}
+
+#button-icons > button:hover{
+    background-color: lightblue;
+    border-radius: 10px;
+
+} 
+
+
+
+#settings-area{
+display: flex;
+align-items: center;
+gap: 20px;
+
+}
+
+#settings-area > button{
+width: 50px;
+height: 50px;
+border-radius:50% ;
+border: none;
+}
+
+#settings-area > button:hover{
+    cursor: pointer;
+}
+
+#settings-area > button >i{
+
+    font-size: 20px;
+}
+
+#circle{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    position:absolute;
+    border-radius: 50%;
+    font-weight: bold;
+    top: 0px;
+    right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#circle-parent{
+position: relative;
+
+}
+
+
+#main-area{
+    display: flex;
+    height: 500px;
+}
+
+#left-side-bar{
+padding: 10px 0px 5px 5px;
+    flex: 1;
+    height: 655px;
+    overflow: auto;
+}
+
+.side-bar-item{
+display: flex;
+align-items: center;
+height: 60px;
+gap: 5px;
+margin-bottom: 10px;
+
+}
+.side-bar-item > img , #box-1 >img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.side-bar-item:hover{
+    background-color: lightblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#feed-area{
+    flex: 2.5;
+    height: 100%;
+    padding: 20px 80px;
+    align-items: center;
+}
+
+#feed-header{
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between ;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 10px;
+}
+
+#box-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#box-1 > button{
+    width: 320px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#upload-icons > button{
+background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+#upload-icons > button >i{
+    font-size: 20px;
+}
+
+
+#upload-icons > button:hover{
+background-color: lightblue;
+border-radius: 50%;
+cursor: pointer;
+}
+
+
+#right-side-bar{
+    padding: 10px 0px 5px 5px;
+    flex: 1;
+    height: 655px;
+    overflow: auto;
+}
+
+
+
+#sories{
+  
+width: 550px;
+    margin: 20px 0px;
+    display: flex;
+    column-gap: 10px;
+}
+
+#create-story-card{
+    border-radius: 20px;
+    height: 160px;
+    width: 110px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+
+#create-story-card:hover{
+    cursor: pointer;
+}
+
+#story-img-card{
+    height: 100px;
+    width: 100%;
+}
+
+#story-img-card > img{
+width: 100%;
+height: 100%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+#create-story-card >p{
+font-size: 14px;
+   font-weight: bold;
+    text-align: center;
+}
+
+#plus-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0866ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 17px;
+    bottom: 40px;
+    border: 5px solid white;
+}
+
+
+#plus-icon > i{
+    color: white;
+}
+.story-card{
+    border-radius: 20px;
+    height: 160px;
+    width: 110px;
+   position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.s-c-i-p{
+    height: 100%;
+    width: 100%;
+    border: 20px;
+   
+}
+.s-c-i-p >img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.story-card >p{
+    position: absolute;
+bottom: 15px;
+font-size: 15px;
+font-weight: bold;
+color: white;
+text-align: center;
+}
+.p-p-f-s >img{
+border-radius: 50%;
+border: 5px solid #0866ff;
+position: absolute;
+top: 20px;
+left: 5px;
+}
+
+
+#post-container{
+    height: auto;
+    width: 700px;
+    
+}
+
+.post-card{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+   background-color: white;
+   border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.post-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-gray{
+    color: gray;
+    font-size: 15px;
+}
+
+.info > div > img{
+border-radius:50% ;
+object-fit: cover;
+}
+
+.info > img:hover{
+    cursor: pointer; 
+}
+
+.actions{
+    display: flex;
+    gap: 10px;
+}
+.actions > div > i:hover{
+    cursor: pointer;
+}
+
+.post-body{
+     height: 475px;
+     width: 100%;
+     background-color: lightblue;
+     margin: 20px 0px;
+}
+
+.post-body > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.post-footer{
+    padding: 0px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-actions > button{
+    background-color: white;
+    border: none;
+  
+    
+}
+
+.footer-actions > button > i{
+    font-size: 20px;
+}
+.footer-actions > button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+

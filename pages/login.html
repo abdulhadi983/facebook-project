@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/login.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <!--left-box-->
+
+        <div id="left-box">
+            <div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAwFBMVEX///8SVdjy8vITVNn///329vb8/Pzy8vSnt+T5+fkTVdMSV9kAKcns8/z19PLw8/ICTte1x+wAPcvR2+oAO7yXstwAPNAAStUARdWjtOk2ZNHx8/qSqOFOadYAPNUARc/8+fK2zO3c4epfgdhmh9ktXNpbgNHe6vLn7O/Ezey0wuuKouB6ld5wjt19m9/H0elKctgpXtRdftxwi9AARMRKdM3S3fSiut9AZ8by//sAMMcAIK2RqdkwVMklVcJ9odahHfYxAAALd0lEQVR4nO2dC3uivBLHxQAROYYop4KXXVFb8VLv1W57bN/v/61OQoKXqjVZA9r34f9su926pfycyWRyG3K5TJkyZcqUKVOmTJkyZcqUKVOmTJkyZcr0L5JpWZaxFfmHZZq3vqe/kRlR5L8qgvpRQATkiOIr1M8AMi+CxDzWrW/1goRJ7p7npHchLoN8/Bx/M61jDhLLnH6/w9XvO5Z1zHR/OF+tggKr33EHw1pz9DzuEj0+jifN2nAwdUuGRYGgs6Wy7srbDlEcpEN3UJs8zuZepep7HsaYfHi+X6mA+mLcHE5DwuPcZ+M5QEG6M609L+a45WGgxbLJR/Qv4LVaxV/dUbmjH/jlnTjbfgRDgek2u/UixgBwBPKZKP6a/g0A9sB8thw0AgTvyzhbFARRANu9usZALghg/DRruhZtOA68E+PsW+XtoQ4Iia2JwACb8HwswwCRWBBHgpui7NweIvPhxWfOZV9EITA2xdFwpecGe8H6hiw7FzNg++U9auP77eNby5A/xI62974MjR3OrVyNt3yHNpfpqkrfaEIjYhYt4rUjchv4L5tw15XextUs3uwhyq8nL54Yw0mHw5VZu08CG2s6xs1YaEdeGs5aAk3+LAwxkVccuYbD40D6NNuO0upM5n9vFo3FNRt4izKMO520Y7QVNxd9umgBwXZyjoVaB3jzZt+4CU0ckpH+MPeucLE92Rj0woBcMm1P43ZxkNksYpEuUkgA1ztxgpMejRmnL9YSqyIhIinBxzSA6UYBM/axfq8VdeVqWAD1tJeBnk+TJuorHdK9hD0/6iKvaf4HNORdwcUygg6kzpYGDev3ITLC8TW9yxnZeF62YGq5QMTiQCN8bomk+pIsxDbzgZGH6QTouIPpT3zaQ6hysa2A5s2mKJ0BjhknMZsojgmbZjvGsWOd/1lv5RqpOBpzsrz1iqW6fdrJA8/z6ZyGz+RpZ73U6/VRCgMCi3WW1pT0leIk1AzV6sdiPGrWCoUm0+R8FwX8SUDNn+xgjTuZUaqTfl/YMiQpfq83p2GpAS2mRsMyXe/sBQDwC6TzhMk6Gu/PcktfJofB7711w9Spoquwr1z/vGU08ELTtHySpuGRTH8VTmJIcq/5dTenH1/M9b8xre39ecsnS8OzGHcu7GJkFOktG7FJxGFI0vmPDpOMAXHevwTiTgbAyMqdYrkAY+OPNUrSNNwww7lEqgyoXXLSbkZpHqGRXMYZ5Zd51Ol6trCb4ai96KdscwFGw0+vVmKdjclzsoJUIJucMooQjIa7HRSF5wRME9m8Ybiz8/3DkUBxfbrBXISh0+vaxkgoRYtn/GotYRQCUz/LctkywFu4KJlWw/zX6Mwk8hiAxzn9RFyOek3X//ZHKSkusHlb5aZhQzKn8O0tfLkd4BX2m8wWK84ALjU+b9VBSWTP3DCNurBhABnu+FM9d2AZfZfUuP7FwRColJ0kYFiLCQbvMv2l5rv7LOTLt3Wba/qALy592F63n4Cf8eYPu54EjA0qpYP+UndX779j+UBgbNdaJ+BnVjS6gJ2K1KgfVA5votStFrfvOk1CLwZ5f4TUR+fIMAba+LbQslh8u5XDq5TFM1R+BfzZUJ5uci97q2OpmwH/PbxMQWJExy6gVQfK/YyNMAP3XWY2BhzDFGUnp2z/OVCd0tDAjPJBrSrzxhIrfIUB0jNtoNiI5p0UNhrmZfpKovdXYxlNq/J4pg6GT2PITceqgfE3gaO00fAm076UGn6BsVXA4JXuKG00LJcJJpKxTAkMqDTUDtFYk8mt5AKrGjcD1XWgFIaN/UufUndCwVXAeAU9ARj36TYwz7rKbpO3/7L8et8xjOwVaATIQeUw+kbsbQWVnf53eKFapbp9SXhOFH+aKsfOHGYp1GWCYrNWKxSGw2G5XR4eXmhd26o5F6UBH6HKrQEsMls9oU0luF4y2ekF/Wj4b+5U+iWYTZDx6pTlAGpg+MBscXloSH95vbEbjx1PZXDKXEMUhlxRPQwqzYT2khEYXec3/ZVk+4IMDNDKlnKYcCaUABxY5owIk4xlHgLlMO6v28AAvNH/LTBkCNRUmQLEMGLdjAiMLmOZhGAELaPHk31HM7O6Hr8iEwCaKjNNBrP+JRyatzOXxzDx92VgNipheJ4pHM32LPOFZfeCMIwNwEa9m0mE5lw8939Iw78Vfa8hvJoAwIPyaJbvr7BI2gyeHnYq7cPourt7ZSOam5EhXll5P5M3umIDTYBjgf+UDi9UAN72VYn596lKGJZNvD0Krv/xyTHy+QgmnimXGaOBJ1dl1swHZ89ym0vJfz6C+ZvBGfgoqYfRN3K3ogoGzy2lW53ZeKb8JDntbauBmemOchi0fpKajrBPwkjT2N5E7ZQmn2qqS87OKIHRvFe182bxvLnkTkY1lqm4amfO+fTs6BYw4OVN7doZhylLrWgogvH+6CpnmrYHGUoyO00Uwdj+JlC8WZM2GpjXZbaaKIIB74rnzWM/0x+E95qog/ngXqYOhvtZpyKRVimBsdkOZ6ULtOyUST6oS9yMGstUpyg6uKVyiwY7MhNsqoKHfdXAAA3X+1ERBKU7NPhuyVBiiVaJZapNlKfHN5Vun+MngJyxJ7xIcz2MTQZ6dOHcUb1Hi5/9bVeF92gosIztP/ZV7wLYwRh98a5GhZu1BslsbWZXRYVKejC21+2wvEz1WQ1mGii+4VSBZVqFRiKG4SEAoUIrOledNIxNT20u3KQ20HM/cxeeJrRt7DqYqBDHqxWdqk9gx7nJzzRGO+ASh6G7AHsdpHT0vy9ums4jFjoFeG2bAfP4YEMCLNsDZ+254Ft7VZvR8BhCtZuzDsRNA5+F7ujKNgPmLj96mgjL9jRQR2jb+ZVu1npAyfQxsUxmGVQWyTevg/FWBlK5/H9C0dUdR18KDDntE9OzwkM7UAn5ibPED2oi61NgrebEKkBRKAySS7/zNZlEiwKY0cwGDMIXgZ38p9xMJOe2Nf8fPXmWKKJBB+aDtshB7cqwfKCJGIzm9ZzknSzHYwAJM2+by6s1Nqj+ru5LsBqCt0qhwUSKT57C0cWlvOLe6f9LNQD2hGdrI4GzGedpHOiEEwzAVbWAToiWnagP4qJNKdQFYjM1jhM+Y2VlWnYwXr2MEKurl0aNI16qJY/Csae8JAixCxk0JV0KYJ+G9Z15I1zSU1vKeOh47GOajxoMTLkkEPFsa3L5SJ+ECIsbV6BLu1gTLaLVrCqr1gQ0/7OxLayZGgsPabABkd7+UFQSTANeL4eYxVMuPheddaK/OnD/KIkCAM8322q0aRfS42X0nEYQjmSqHRzLpnPxGCzoUbm0i5vFikvOOsgpLzDNov8yFNDpEW8+Cq1b2WVHQ+t3WW7zimJ6QMOtXhtuWW5TnJ7T0PfSmY5b5+vIfG8YXK0XOrvKwjerP7srPYs6g9lvqQqUIJq11IBfbLoOulXVyX2ZOxqjM5xVsVhiHMEAkkaDSnHkQmtbtfkWzWVPsX9AhGCj/efdByIHsLVoJymuvow6xE+dGObm9afjoNYgiTR6c0nbwSIjAwC8Sv3V0A3ooEYj9V7/rOI4ACGxj156XWm0Kvh5d4tKG2ufIzcIEHkHIKuXdXuzMB1UXke6HhYef82L0bZSVumcVTmnFIDuOH2qz0bTN/3gAQG3rwkey9x7nglJrYzALE03y8WsPi+CqIp+JIy14ny2eBy9uk6A8vAuUaj2ngzgROWokW6WOoNCrfk8jh5y0H0cP482hfI0tAJaB3zfLHdReP5ABzisDSFaZc6BfaKw34cGwYge1rD/eIN7RKE6/dgZ9lwQJ/q8Bxvrjp+sI/AYnUOj3C8KlSnMc+8ksS7z/BCQWGeBfopFvsokTseeqsWeDWb+zCeDZcqUKVOmTJkyZcqUKVOmTJkyZcqUKVOmTD9Y/weSZuzfwX77kAAAAABJRU5ErkJggg=="
+                    id="fb-logo">
+            </div>
+
+            <h1>Explore the thinghs <span id="text-blue">you love</span></h1>
+            <div>
+                <img src="https://raw.githubusercontent.com/HasanCoder66/SMIT-BATCH-24/8d57a4cd37315c9add7d4ab59b458870cbb6bcb7/Projects/Class-16/Facebook/assets/U45qBJmWVHU.webp"
+                    alt="" height="200px" width="200px">
+            </div>
+        </div>
+<div id="divider"></div>
+        <!--right-box-->
+
+        <div id="right-box">
+            <h1>Log in to facebook</h1>
+
+            <!--form area-->
+
+            <form id="input-boxes">
+
+                <div id="email">
+                    <input type="email" placeholder="email adress or mobile number">
+                </div>
+                <div id="password">
+                    <input type="password" placeholder="passsword">
+                </div>
+
+                <div id="login-button">
+                    <button><a href="../index.html">Log in</a></button>
+                </div>
+                <div id="forgot-button">
+                    <button>forgot password</button>
+                </div>
+
+                <div id="signup-button">
+                    <button><a href="./signup.html">Create a New Account</a></button>
+                </div>
+
+                <div id="meta-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                        alt="">
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
